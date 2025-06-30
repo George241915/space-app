@@ -1,0 +1,157 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cajaBusqueda {
+  height: 56px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #C98CF1;
+  background: transparent;
+  box-sizing: border-box;
+  width: 566px;
+  color: #D9D9D9;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  outline: none;
+}
+
+.mainContainer {
+  display: flex;
+  gap: 24px;
+}
+
+.listaMenu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 236px;
+}
+
+.opcionMenu {
+  font-size: 24px;
+  margin-bottom: 30px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #D9D9D9;
+}
+
+.banner {
+  background-image: url('img/banner.png');
+  flex-grow: 1;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  min-height: 328px;
+  margin: 0;
+  border-radius: 20px;
+  max-width: 100%;
+  background-size: cover;
+}
+
+.galeria {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.titulo {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FFFFFF;
+  max-width: 300px;
+  padding: 0 64px;
+  text-align: left;
+}
+
+.subtitulo {
+  font-size: 32px;
+  color: #7B78E5;
+  text-align: left;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.imagenGaleria {
+  width: 45%;
+  max-width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  &>img {
+    max-width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  figcaption {
+    background-color: #001634;
+    border-radius: 0px 0px 20px 20px;
+    color: white;
+    box-sizing: border-box;
+    padding: 12px;
+
+    h3 {
+      font-family: 'GandhiSansBold';
+    }
+
+    h4 {
+      flex-grow: 1;
+    }
+
+    h3,
+    h4 {
+      margin: 0;
+      font-size: 16px;
+    }
+  }
+}
+
+
+.modal {
+  position: absolute;
+  top: 294px;
+  background: transparent;
+  padding: 0;
+  border: 0;
+  width: 1156px;
+  display: flex;
+  justify-content: center;
+
+  form {
+    button {
+      position: relative;
+      top: 20px;
+      right: 60px;
+    }
+  }
+}
+
+.botonCerrar {
+  margin-left: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.tituloImagen {
+  display: flex;
+  justify-content: space-between;
+}
