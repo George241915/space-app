@@ -155,3 +155,21 @@
   display: flex;
   justify-content: space-between;
 }
+
+.botonBuscar {
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #7B78E5;
+  color: #FFFFFF;
+  max-width: 300px;
+  padding: 0 20px;
+  margin: 0px 10px 5px;
+  text-align: left;
+  border-radius: 10px;
+  border-color: #001634;
+}
+
+.busqueda {
+  display: flex;
+  justify-content: end;
+}
